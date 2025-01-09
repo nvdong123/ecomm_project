@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
+
+@layer components{
+  @font-face {
+    font-family: "Oceanwide-Semibold";
+    src: url(/fonts/Oceanwide-Semibold.otf);
+ };
+  @font-face {
+  font-family: "Oceanwide-SemiboldOblique";
+  src: url(/fonts/Oceanwide-SemiboldOblique.otf);
+}
+}
+@import 'actiontext.css';
